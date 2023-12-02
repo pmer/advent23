@@ -1,7 +1,9 @@
 #include "os/os.h"
 #include "util/compiler.h"
 #include "util/int.h"
+#include "util/io.h"
 #include "util/string2.h"
+#include "util/string-view.h"
 
 int
 main() noexcept {

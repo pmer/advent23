@@ -1,17 +1,19 @@
 #include "os/os.h"
 #include "util/compiler.h"
 #include "util/int.h"
+#include "util/io.h"
 #include "util/string2.h"
+#include "util/string-view.h"
 
-StringView one("one", 3);
-StringView two("two", 3);
-StringView three("three", 5);
-StringView four("four", 4);
-StringView five("five", 4);
-StringView six("six", 3);
-StringView seven("seven", 5);
-StringView eight("eight", 5);
-StringView nine("nine", 4);
+static StringView one("one", 3);
+static StringView two("two", 3);
+static StringView three("three", 5);
+static StringView four("four", 4);
+static StringView five("five", 4);
+static StringView six("six", 3);
+static StringView seven("seven", 5);
+static StringView eight("eight", 5);
+static StringView nine("nine", 4);
 
 int
 main() noexcept {
