@@ -176,8 +176,8 @@ target_link_libraries(01a carob)
 add_executable(01b ${ADVENT}/src/01b.cpp)
 target_link_libraries(01b carob)
 
-#add_executable(02a ${ADVENT}/src/02a.cpp)
-#target_link_libraries(02a carob)
+add_executable(02a ${ADVENT}/src/02a.cpp)
+target_link_libraries(02a carob)
 #add_executable(02b ${ADVENT}/src/02b.cpp)
 #target_link_libraries(02b carob)
 
