@@ -186,6 +186,11 @@ target_link_libraries(03a carob)
 add_executable(03b ${ADVENT}/src/03b.cpp)
 target_link_libraries(03b carob)
 
+add_executable(04a ${ADVENT}/src/04a.cpp)
+target_link_libraries(04a carob)
+#add_executable(04b ${ADVENT}/src/04b.cpp)
+#target_link_libraries(04b carob)
+
 include_directories(${HERE}/src)
 
 
